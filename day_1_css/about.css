@@ -20,20 +20,18 @@ body{
     padding: 10px;
     text-align: center;
 } */
-  nav{
+ nav{
     background-color: rgb(72, 110, 222);
     /* padding: 10px; */
     margin: 0px;
     padding: 10px 10px;
     border-radius: 25px;
-    
     text-align: center;
 }
-nav ul li a.Home1{
+nav ul li a.About1{
     color: #f6efef;
     text-decoration: none;
     font-weight: bold;
-    margin : 0px, 10px;
     padding: 10px 20px;
     border-radius: 25px;
     background-color: #444;
@@ -50,29 +48,23 @@ nav ul li{
 nav ul li a{
     color: #fff;
     text-decoration: none;
-    padding: 10px 10px;
     font-weight: bold;
+    padding: 10px 10px;
     transition: color 0.3s ease;
     transition: background-color 0.3s ease;
 }
 nav ul li a:hover{
     color: rgb(160, 179, 238);
-    background-color: #666;
-    border-radius: 25px;
-}
-h1{
-    font-size: 2rem;
-    margin: 10px 0px;
-    text-align: center;
-    text-transform: capitalize;
-}
-div.home_content{
-    background-color: #444;
-    padding: 20px;
-    margin-bottom: 10px;
 }
 p{
+    background-color: #555;
     margin-bottom: 10px;
     padding: 10px;
     text-align: left;
+}
+p a{
+    color: #fff;
+    text-decoration: none;
+    color: rgb(170, 144, 126);
+    font-weight: bold;
 }
