@@ -55,6 +55,8 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: rgb(160, 179, 238);
+    background-color: #666;
+    border-radius: 25px;
 }
 p{
     background-color: #555;
