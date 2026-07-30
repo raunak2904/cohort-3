@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color: burlywood;
+}
+#box{
+    background-color: goldenrod;
+    margin: 20px;
+    border: 1px solid palegoldenrod;
+    border-radius: 15px;
+    padding:12px 20px;
+    width: 120px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 20px;
+    transform: translate(20%, 10%);
+}
+#box:hover{
+    background-color: gold;
+    color: royalblue;
+    box-shadow: 10px 12px 34px rgba(0, 0, 0, 1);
+}
+#box:active{
+    background-color: ghostwhite;
+    color: goldenrod;
+}
