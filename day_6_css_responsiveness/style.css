@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+}
+/* h1{
+    background: royalblue;
+}
+a{
+    background-color: aquamarine;
+}
+span{
+    background: red;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: lightgreen;
+    display: inline-block;
+    transform: rotate(20deg);
+} */
+
+h1{
+    font-size: 8vmax;
+    background: royalblue;
+}
+
+#parent{
+    height: 30vmax;
+    width: 30vmax;
+    background: cornflowerblue;
+}
+
+#child{
+    height: 50vh;
+    width: 50vw;
+    background-color: cadetblue;
+}
