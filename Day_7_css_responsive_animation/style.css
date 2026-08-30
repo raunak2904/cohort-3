@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(40, 19, 19);
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+}
+
+@media (min-width:300px) and (max-width: 600px) {
+    #box{
+        background-color: crimson;
+        height: 160px;
+        width: 160px;
+        border-radius: 20px;
+    }
+}
