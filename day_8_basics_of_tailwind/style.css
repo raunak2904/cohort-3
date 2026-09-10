@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+    color: white;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color:black;
+}
+
+.red{
+    color: rgb(251, 70, 70);
+}
+.blue{
+    color: rgb(51, 51, 242);
+}
+.yellow{
+    color: yellow;
+}
+
+.large{
+    font-size: 40px;
+}
+.small{
+    font-size: 20px;
+}
+
+.btn{
+    padding: 10px 20px;
+    color: antiquewhite;
+    background-color: royalblue;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+}
