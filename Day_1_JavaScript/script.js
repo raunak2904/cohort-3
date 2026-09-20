@@ -1,3 +1,2 @@
-var a = null
-
-console.log(typeof (a))
+var ans = confirm('are you a man??')
+console.log(ans);
