@@ -115,3 +115,33 @@
 
 
 
+// understanding (continue) functionality
+
+
+// for (var a = 1; a<=10; a++){
+//     if (a==5){
+//         continue;
+//     }
+//     if (a==7){
+//         continue;
+//     }
+//     console.log(a);
+// }
+
+console.log("Odd Number");
+
+for (var a = 0; a<= 10; a++){
+    if (a%2 == 0){
+        continue;
+    }
+    console.log(a);
+}
+
+console.log("Even Numbers");
+
+for (var a = 0; a <= 10; a++){
+    if ( a%2 != 0 ){
+        continue;
+    }
+    console.log(a)
+}
